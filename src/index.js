@@ -1,6 +1,4 @@
 import React, { Component } from "react";
-import SimpleClock from "./SimpleClock";
-import AnalogClock from "./AnalogClock";
 import ReactDOM from "react-dom";
 import { TimeProvider, TimeConsumer } from "./TimeContext";
 
