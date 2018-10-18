@@ -1,2 +1,0 @@
-# ReactContextApp
-Created with CodeSandbox
