@@ -33,7 +33,7 @@ class ContextDemo extends Component {
             {({ laps }) =>
               laps.map((item, key) => {
                 console.log(item);
-                return `${item}`;
+                return <div>{`${item}`}</div>;
               })
             }
           </TimeConsumer>
