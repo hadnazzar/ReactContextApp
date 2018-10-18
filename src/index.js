@@ -5,17 +5,9 @@ import ReactDOM from "react-dom";
 
 import "./styles.css";
 
-const FirstChild = ({ now }) => (
-  <div>
-    <SimpleClock time={now} />
-  </div>
-);
+const FirstChild = ({ now }) => <div>SimpleClock</div>;
 
-const SecondChild = ({ now }) => (
-  <div>
-    <AnalogClock time={now} />
-  </div>
-);
+const SecondChild = ({ now }) => <div>AnalogClock</div>;
 
 class ContextDemo extends Component {
   state = {
